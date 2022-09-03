@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Red Rose", sans-serif;
+  }
+  
+  body {
+    background-image: url("assets/img.png"),
+      linear-gradient(rgba(20, 18, 55, 0.737), rgba(20, 18, 55, 0.737));
+    background-blend-mode: darken;
+    background-size: cover;
+    height: 100vh;
+  }
+  
+  /* ------------------------------ */
+  /* ---------- NAVBAR ------------ */
+  /* ------------------------------ */
+  
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2.2rem;
+  }
+  
+  .logo {
+    margin-left: 2rem;
+  }
+  
+  .list {
+    display: flex;
+    list-style: none;
+  }
+  
+  .list-item {
+    padding-left: 30px;
+    color: #ffd000fa;
+    cursor: pointer;
+    font-size: 1.3rem;
+  }
+  
+  .button-small {
+    padding: 10px 20px;
+    border: none;
+    font-size: 1.5rem;
+    background-color: #ff6263;
+    color: #ffffff;
+    margin-right: 4rem;
+    cursor: pointer;
+  }
+  
+  /* ------------------------------ */
+  /* ---------- HERO ------------ */
+  /* ------------------------------ */
+  
+  .hero-heading {
+    font-family: "Red+Rose", sans-serif;
+    margin: 0 14rem;
+    color: #f7cd2e;
+    font-weight: 700;
+    font-size: 6.9rem;
+    text-align: center;
+    padding-top: 3rem;
+    line-height: 1;
+  }
+  
+  .button-large {
+    background-color: #ff6263;
+    border: none;
+    padding: 10px 2rem;
+    color: #ffffff;
+    margin-left: 38rem;
+    margin-top: 5rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .bottom img {
+    position: relative;
+    left: 75rem;
+    bottom: 6rem;
+  }
